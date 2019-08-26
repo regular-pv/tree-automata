@@ -1,0 +1,10 @@
+[package]
+name = "tree-automata"
+version = "0.1.0"
+authors = ["timothee.haudebourg@irisa.fr"]
+edition = "2018"
+
+[dependencies]
+terms = { path = '../terms' }
+term-rewriting = { path = '../term-rewriting' }
+crossbeam-channel = "*"
