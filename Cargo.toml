@@ -3,8 +3,14 @@ name = "tree-automata"
 version = "0.1.0"
 authors = ["timothee.haudebourg@irisa.fr"]
 edition = "2018"
+categories = ["data-structures", "science"]
+keywords = ["term", "automaton", "tree-automata", "tree"]
+description = "Term Rewriting Systems"
+repository = "https://github.com/regular-pv/tree-automata"
+documentation = "https://docs.rs/tree-automata"
+license = "MIT/Apache-2.0"
+readme = "README.md"
 
 [dependencies]
-terms = { path = '../terms' }
-term-rewriting = { path = '../term-rewriting' }
-crossbeam-channel = "*"
+terms = "0.1.1"
+crossbeam-channel = "0.3.9"

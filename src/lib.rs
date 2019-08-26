@@ -1,7 +1,6 @@
 #![feature(trait_alias)]
 
 extern crate terms;
-extern crate term_rewriting as trs;
 
 use std::fmt;
 use std::hash::{Hash, Hasher};
