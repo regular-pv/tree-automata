@@ -12,5 +12,5 @@ license = "MIT/Apache-2.0"
 readme = "README.md"
 
 [dependencies]
-terms = "0.1.1"
+terms = "0.1.2"
 crossbeam-channel = "0.3.9"
