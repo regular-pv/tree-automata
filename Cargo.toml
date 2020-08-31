@@ -1,6 +1,6 @@
 [package]
 name = "tree-automata"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["timothee.haudebourg@irisa.fr"]
 edition = "2018"
 categories = ["data-structures", "science"]
