@@ -93,11 +93,6 @@ pub trait SearchContext: Clone + fmt::Display + fmt::Debug {
 	fn looping(&self) -> bool;
 }
 
-#[cfg(debug_assertions)]
-struct DebugInfos {
-	depth: usize
-}
-
 #[derive(Hash, PartialEq, Eq)]
 struct Item<F: Symbol, Q: State, C, P>(Configuration<F, Q>, C, Vec<P>);
 
